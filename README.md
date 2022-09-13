@@ -48,3 +48,7 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](./MIT.md) licensed.
 
+## Acknowledgments
+
+- I thank [Gregoire Vella](https://www.behance.net/gallery/19759151/Snapscan-iOs-design-and-branding?tracking_source=) for the beautiful design blueprint.
+
