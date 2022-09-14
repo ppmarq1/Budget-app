@@ -20,7 +20,7 @@ To get a local copy up and running follow these simple example steps.
 
 [Live Demo Link](https://desolate-fjord-22181.herokuapp.com/)
 
-[Here is a video link of our presentation](https://www.loom.com/share/8bc0621681e742f5a47c3e9d8497ccf3)
+[Here is a video link of my presentation](https://www.loom.com/share/8bc0621681e742f5a47c3e9d8497ccf3)
 
 ## Authors
 
