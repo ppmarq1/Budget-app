@@ -9,14 +9,11 @@ gem 'rails', '~> 7.0.3', '>= 7.0.3.1'
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails'
 
-gem 'bullet'
+# Use postgresql as the database for Active Record
+gem 'pg', '~> 1.1'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
-
-gem 'cancancan'
-
-gem 'bootstrap_form', '~> 5.1'
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem 'importmap-rails'
@@ -58,18 +55,36 @@ end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
+  gem 'sqlite3'
   gem 'web-console'
 
-  gem 'pg', '~> 1.1'
+  # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
+  # gem "rack-mini-profiler"
 
-  gem 'capybara'
-
-  gem 'rspec-rails', '~> 4.0.0'
+  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
+  # gem "spring"
 end
 
 group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
-  gem 'rails-controller-testing'
+  gem 'capybara'
+  gem 'rails-helper'
+  gem 'rspec-rails'
   gem 'selenium-webdriver'
   gem 'webdrivers'
 end
+
+# Devise
+
+gem 'devise'
+# cancancan
+
+gem 'cancancan'
+# Testing
+gem 'rails-controller-testing'
+
+# ffi
+
+gem 'ffi'
+
+gem 'rails_12factor'
