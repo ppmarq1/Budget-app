@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe Category, type: :model do
   subject do
-    user = User.create(name: 'Dudu', email: 'dudu@test.come', password: '123456789')
-    Category.new(author: user, name: 'fitnesshut', icon: 'new_icon')
+    user = User.create(name: 'Lynette', email: 'lynette@test.come', password: 'karate')
+    Category.new(author: user, name: 'fitness', icon: 'new_icon')
   end
 
   before { subject.save }
@@ -19,7 +19,7 @@ RSpec.describe Category, type: :model do
     end
 
     it 'name exists' do
-      subject.name = 'Dudu'
+      subject.name = 'Lynette'
       expect(subject).to be_valid
     end
 

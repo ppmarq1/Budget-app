@@ -2,8 +2,8 @@ require 'rails_helper'
 
 RSpec.describe Payment, type: :model do
   subject do
-    user = User.create(name: 'Dudu', email: 'dudu@test.come', password: '123456789')
-    Payment.new(author: user, name: 'yoga', amount: 5)
+    user = User.create(name: 'Lynette', email: 'lynette@test.come', password: '1234567')
+    Payment.new(author: user, name: 'skating', amount: 5)
   end
 
   before { subject.save }

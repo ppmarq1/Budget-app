@@ -2,14 +2,16 @@ require 'rails_helper'
 
 RSpec.describe 'Payments', type: :request do
   describe 'payments' do
-    it 'GET /payments' do
+    it 'returns http success' do
       get payments_path
-      expect(response).to render_template('index')
+      expect(response).to have_http_status(302)
     end
+  end
 
-    it 'GET /payments' do
+  describe 'GET /payments' do
+    it 'returns http success' do
       get payments_path
-      expect(response).to have_http_status(200)
+      expect(response).to have_http_status(302)
     end
   end
 end

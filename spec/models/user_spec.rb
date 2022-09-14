@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe User, type: :model do
-  subject { User.create(name: 'Dudu', email: 'dudu@test.com', password: '123456789') }
+  subject { User.create(name: 'lynette', email: 'lynette@test.com', password: 'ettescents') }
 
   before { subject.save }
 
@@ -16,12 +16,12 @@ RSpec.describe User, type: :model do
     end
 
     it 'have correct name' do
-      subject.name = 'Dudu'
+      subject.name = 'lynette'
       expect(subject).to be_valid
     end
 
     it 'is not valid without password' do
-      subject.password = '123456789'
+      subject.password = 'ettescents'
       expect(subject).to be_valid
     end
   end
