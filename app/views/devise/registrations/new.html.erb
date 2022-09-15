@@ -18,23 +18,23 @@
     <%= render "devise/shared/error_messages", resource: resource %>
 
     <div class="field">
-      <%= f.text_field :name, autofocus: true, autocomplete: "name", placeholder: "Full name", class: "nems" %>
+      <%= f.text_field :name, autofocus: true, autocomplete: "name", placeholder: "Full name", class: "field1" %>
     </div>
     <hr />
     <div class="field">
-      <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder: "Email", class: "emms" %>
+      <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder: "Email", class: "email1" %>
     </div>
     <hr />
     <div class="field">
-      <%= f.password_field :password, autocomplete: "new-password", placeholder: "Password(6 characters)", class: "pass" %>
+      <%= f.password_field :password, autocomplete: "new-password", placeholder: "Password(6 characters)", class: "password1" %>
     </div>
     <hr />
     <div class="field">
-      <%= f.password_field :password_confirmation, autocomplete: "new-password",  placeholder: "Confirm your password", class: "pass" %>
+      <%= f.password_field :password_confirmation, autocomplete: "new-password",  placeholder: "Confirm your password", class: "password1" %>
     </div>
 
     <div class="actions">
-      <%= f.submit "Sign up", class: 'aye' %>
+      <%= f.submit "Sign up", class: 'signup1' %>
     </div>
   <% end %>
   </div>

@@ -1,20 +1,17 @@
 @font-face {
   font-family: 'Gladista Script';
-  font-style: normal;
   font-weight: 400;
   src: local('Gladista Script'), url('https://fonts.cdnfonts.com/s/82351/Gladista.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Proxima Nova Bold';
-  font-style: normal;
   font-weight: 600;
   src: local('Proxima Nova'), url('https://fonts.cdnfonts.com/s/18823/ProximaNova-Semibold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Proxima Nova Light';
-  font-style: normal;
   font-weight: 250;
   src: local('Proxima Nova'), url('https://fonts.cdnfonts.com/s/18823/ProximaNovaT-Thin.woff') format('woff');
 }
@@ -31,7 +28,7 @@ body {
   text-decoration: none;
 }
 
-.hold {
+.main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,6 +80,7 @@ body {
   display: flex;
   justify-content: space-between;
   color: #fff;
+  font-size: 30px;
   padding: 40px;
   list-style: none;
   background-color: #3582db;
@@ -93,21 +91,21 @@ body {
   width: 100%;
 }
 
-.nems {
+.field1 {
   border: 0;
   padding: 15px;
   width: 100%;
   outline: none;
 }
 
-.emms {
+.email1 {
   border: 0;
   padding: 15px;
   width: 100%;
   outline: none;
 }
 
-.pass {
+.password1 {
   border: 0;
   padding: 17px;
   width: 100%;
@@ -123,7 +121,7 @@ hr {
   justify-content: center;
 }
 
-.aye {
+.signup1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -141,7 +139,7 @@ hr {
   width: 100%;
 }
 
-.june {
+.second {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -181,7 +179,7 @@ hr {
   font-weight: 700;
 }
 
-.addc {
+.addnew {
   display: flex;
   flex: 2;
   align-items: center;
@@ -194,7 +192,7 @@ hr {
   bottom: 0;
 }
 
-.addsst {
+.addnew2 {
   align-items: center;
   justify-content: center;
   padding: 15px;
@@ -295,7 +293,7 @@ hr {
   color: #fff;
 }
 
-.payy {
+.payshow {
   display: flex;
   box-shadow: 5px 5px 7px #a2abb1;
   padding: 20px;
