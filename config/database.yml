@@ -24,9 +24,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 development:
   <<: *default
-  database: Budget_app_development
-  username: postgres
-  password: Eduardo1!@
+  url: <%= ENV['DATABASE_URL'] %>
   #password: Martial@5009
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user running Rails.
